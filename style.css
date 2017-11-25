@@ -1,0 +1,85 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+/*menu*/
+.navbar-brand {
+    margin-right: 3rem;
+}
+.navbar-brand span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1rem;
+    text-align: center;
+    color:  #939393;
+    margin-top: -7px;
+    }
+    .navbar-light .navbar-nav .nav-link  {
+        color: #000;
+    }
+
+
+/* Active item */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .show > .nav-link {
+   color: #f38586 ;
+   border-bottom: 1px solid #f38586 ;
+} 
+
+ .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem
+    }
+
+/*dropdown menu*/
+    .dropdown-menu {
+    border:none;
+    }
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #f38586 ;
+    background-color: transparent;
+    }
+.main-slide {
+    background: url("img/slide-photo.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 490px;
+}
+  .main-slide button {
+      color: white;
+  }
+  .main-slide h1 {
+     color: white;
+     padding-top: 260px;
+     letter-spacing: 3px; 
+     text-shadow: 2px 2px 1px rgba(0,0,0,0.4)
+ }
+
+button {
+    background-color: #f38586;
+    color: white;
+    border: none;
+    font-size: 19px;
+    border-radius: 7px;
+    padding: 22px 17px 22px 17px;
+    line-height: 0;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid #f38586;
+    color: #f38586;
+    cursor: pointer;
+    }
+h1 {
+    font-weight: 400px;
+}
+
+.bg-gray {
+    background-color: #f4f4f4;
+
+}
+
